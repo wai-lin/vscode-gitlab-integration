@@ -19,7 +19,24 @@
 				"command": "extension.helloWorld",
 				"title": "Hello World"
 			}
-		]
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "gitlab-integration",
+					"title": "Gitlab Integration",
+					"icon": "src/assets/gitlab.svg"
+				}
+			]
+		},
+		"views": {
+			"gitlab-integration": [
+				{
+					"id": "gitlab",
+					"name": "gitlab"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
