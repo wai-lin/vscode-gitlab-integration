@@ -20,17 +20,8 @@
 				"title": "Hello World"
 			}
 		],
-		"viewsContainers": {
-			"activitybar": [
-				{
-					"id": "gitlab-integration",
-					"title": "Gitlab Integration",
-					"icon": "src/assets/gitlab.svg"
-				}
-			]
-		},
 		"views": {
-			"gitlab-integration": [
+			"scm": [
 				{
 					"id": "gitlab",
 					"name": "gitlab"
